@@ -1,6 +1,70 @@
 /*
 * */
 
+/*
+ */
+
+function Student(firstName, lastName) {
+    this.firstName = firstName
+    this.lastLame = lastName
+    this.fullName = function () {
+        return this.firstName + " " + this.lastLame
+    }
+}
+
+var student1 = new Student('moin', 'ahamed')
+var student2 = new Student('ali', 'ahamed')
+
+document.write(student1.firstName + "<br>")
+document.write(student1.lastLame + "<br>")
+document.write(student2.firstName + "<br>")
+document.write(student2.lastLame + "<br>")
+document.write(student2.fullName() + "<br>")
+
+/*
+var student = {
+    name: "tito", roll: "01", id: 123
+}
+
+document.write(student.name, "<br>")
+document.write(student.roll, "<br>")
+document.write(student.id, "<br>")
+document.write(student['name'].length, "<br>")
+document.write(student.name.length, "<br>")
+
+*/
+
+
+/*
+function mulNum() {
+    return arguments[0] * arguments[1]
+}
+
+
+document.write(mulNum(5, 15), '<br>')
+document.write(mulNum(5, 4), '<br>')
+
+*/
+
+
+// function printName() {
+//     for (let x = arguments[0]; x <= arguments[1]; x++) {
+//         document.write(x,'<br>')
+//     }
+// }
+// document.write("from 5 to 15 <br>")
+// printName(5, 15)
+// document.write("from 15 to 25 <br>")
+// printName(15, 25)
+
+// function printName(from, to) {
+//     for (let x = from; x <= to; x++) {
+//         document.write(x,'<br>')
+//     }
+// }
+//
+// printName(5, 15)
+// printName(15, 25)
 
 
 /*
@@ -13,7 +77,6 @@ else{
     document.write(x)
 }
  */
-
 
 
 /*
