@@ -1,6 +1,22 @@
 /*
 * */
 
+
+
+/*
+x = prompt("Enter a Name :")
+
+if ((x == null) || (x === '')) {
+    document.write("Enter a string")
+}
+else{
+    document.write(x)
+}
+ */
+
+
+
+/*
 x = 1
 while (true) {
     if (x < 30) {
@@ -11,6 +27,8 @@ while (true) {
     }
 
 }
+ */
+
 
 /*
  for (let x=1;x<100;x++){
