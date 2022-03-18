@@ -1,8 +1,21 @@
 /*
-* */
 
+ */
 
+Array.prototype.Ucase = function (i) {
+    return this[i].toUpperCase()
+}
 
+student_name = ['tito', 'hafiz']
+
+document.write(student_name.Ucase(0))
+
+/*
+var rolls = new Array();
+
+rolls[0] = 3
+document.write(rolls[0])
+ */
 
 /*
 function Student(firstName, lastName) {
