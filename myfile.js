@@ -1,15 +1,20 @@
+
+
+
 /*
-
- */
-
 students_name = ['tito', 'hafiz', 'tuhin']
 x = students_name.shift()
+y = students_name.pop()
 document.write(x + "<br>")
+document.write(y + "<br>")
 document.write(students_name.join(" | ") + "<br>")
 
 for (let i = 0; i < students_name.length; i++) {
     document.write(students_name[i].toUpperCase() + "<br>")
 }
+ */
+
+
 
 
 /*
