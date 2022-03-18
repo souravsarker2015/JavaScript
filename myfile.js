@@ -1,4 +1,10 @@
-
+student_name = ["tito", "hafiz", 'tuheen', 'raj']
+// x = student_name.unshift('bikrom')
+x = student_name.splice(2)
+document.write(x, "<br>")
+for (let x = 0; x < student_name.length; x++) {
+    document.write(student_name[x], "<br>")
+}
 
 
 /*
@@ -13,8 +19,6 @@ for (let i = 0; i < students_name.length; i++) {
     document.write(students_name[i].toUpperCase() + "<br>")
 }
  */
-
-
 
 
 /*
