@@ -2,13 +2,31 @@
 
  */
 
+students_name = ['tito', 'hafiz', 'tuhin']
+x = students_name.shift()
+document.write(x + "<br>")
+document.write(students_name.join(" | ") + "<br>")
+
+for (let i = 0; i < students_name.length; i++) {
+    document.write(students_name[i].toUpperCase() + "<br>")
+}
+
+
+/*
 Array.prototype.Ucase = function (i) {
     return this[i].toUpperCase()
 }
 
 student_name = ['tito', 'hafiz']
+document.write(student_name[0].toUpperCase() + "<br>")
+document.write("No of students :" + student_name.length + "<br>")
+document.write(student_name.Ucase(0) + "<br>")
 
-document.write(student_name.Ucase(0))
+for (let i = 0; i < student_name.length; i++) {
+    document.write(student_name.Ucase(i) + "<br>")
+}
+ */
+
 
 /*
 var rolls = new Array();
