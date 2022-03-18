@@ -1,9 +1,10 @@
 /*
 * */
 
-/*
- */
 
+
+
+/*
 function Student(firstName, lastName) {
     this.firstName = firstName
     this.lastLame = lastName
@@ -20,6 +21,9 @@ document.write(student1.lastLame + "<br>")
 document.write(student2.firstName + "<br>")
 document.write(student2.lastLame + "<br>")
 document.write(student2.fullName() + "<br>")
+
+ */
+
 
 /*
 var student = {
