@@ -1,17 +1,40 @@
-x = 3
+/*
+* */
 
-switch (x) {
-    case 1:
-        document.write("saturday")
+x = 1
+while (true) {
+    if (x < 30) {
+        document.write(x, "<br/>")
+        x++;
+    } else {
         break;
+    }
 
-    case 2:
-        document.write("sunday")
-        break;
-
-    default:
-        document.write("input valid day number")
 }
+
+/*
+ for (let x=1;x<100;x++){
+     document.write(x ,"<br/>")
+ }
+
+
+*/
+
+
+// x = 3
+//
+// switch (x) {
+//     case 1:
+//         document.write("saturday")
+//         break;
+//
+//     case 2:
+//         document.write("sunday")
+//         break;
+//
+//     default:
+//         document.write("input valid day number")
+// }
 
 
 // document.write("hello world");
