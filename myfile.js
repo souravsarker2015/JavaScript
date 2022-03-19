@@ -1,13 +1,22 @@
-document.body.innerHTML = " " + "<h1>this is heading inserting dynamically </h1>" + "<br>" +
-    "<h2>this is sub heading</h2>"
-document.getElementById("x1").innerHTML=" "+"<h1>this is 1st box </h1>"
+var x = document.getElementById("contentArea").childNodes;
+console.log(x);
+
+// for (x = 0; x < 3; x++) {
+//     document.getElementsByClassName("boxes")[i].innerHTML = " " + "<h1> box </h1>"
+//
+// }
+// document.getElementsByClassName("boxes")[0].innerHTML = " " + "<h1>First box </h1>"
+//
+
+// document.body.innerHTML = " " + "<h1>this is heading inserting dynamically </h1>" + "<br>" +
+//     "<h2>this is sub heading</h2>"
+// document.getElementById("x1").innerHTML = " " + "<h1>this is 1st box </h1>"
 
 /*
 document.getElementsByTagName("div")[0].innerHTML = "" + "<h1>This is div1 </h1>";
 document.getElementsByTagName("div")[1].innerHTML = "" + "<h1>This is div2 </h1>";
 document.getElementsByTagName("div")[2].innerHTML = "" + "<h1>This is div3 </h1>";
  */
-
 
 
 /*
