@@ -1,3 +1,11 @@
+
+student_name = ["tito", "hafiz", 'tuheen', 'raj']
+roll=[1,2,4]
+x=student_name.concat(roll)
+document.write(x.toString() +"<br>")
+
+
+/*
 student_name = ["tito", "hafiz", 'tuheen', 'raj']
 // x = student_name.unshift('bikrom')
 x = student_name.splice(2)
@@ -5,6 +13,10 @@ document.write(x, "<br>")
 for (let x = 0; x < student_name.length; x++) {
     document.write(student_name[x], "<br>")
 }
+ */
+
+
+
 
 
 /*
