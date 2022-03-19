@@ -1,8 +1,22 @@
+document.body.innerHTML = " " + "<h1>this is heading inserting dynamically </h1>" + "<br>" +
+    "<h2>this is sub heading</h2>"
+document.getElementById("x1").innerHTML=" "+"<h1>this is 1st box </h1>"
 
+/*
+document.getElementsByTagName("div")[0].innerHTML = "" + "<h1>This is div1 </h1>";
+document.getElementsByTagName("div")[1].innerHTML = "" + "<h1>This is div2 </h1>";
+document.getElementsByTagName("div")[2].innerHTML = "" + "<h1>This is div3 </h1>";
+ */
+
+
+
+/*
 student_name = ["tito", "hafiz", 'tuheen', 'raj']
 roll=[1,2,4]
 x=student_name.concat(roll)
 document.write(x.toString() +"<br>")
+
+ */
 
 
 /*
@@ -14,9 +28,6 @@ for (let x = 0; x < student_name.length; x++) {
     document.write(student_name[x], "<br>")
 }
  */
-
-
-
 
 
 /*
