@@ -10,21 +10,38 @@
 <body>
 <center>
     <button onclick="startClock()">start clock</button>
-    <button onclick="stopClock()">start clock</button>
+    <button onclick="stopClock()">stop clock</button>
     <div id="clock"></div>
 
 </center>
 
 
 </body>
-<script src="" type="text/javascript">
+<script>
     function startClock() {
-        var date = new Date()
+        var date = new Date();
 
-        var hour = date.getHours()
-        var minute = date.getMinutes()
-        var sec = date.getSeconds()
-        var session = "AM"
+        var hr = date.getHours();
+        var minute = date.getMinutes();
+        var sec = date.getSeconds();
+        var session = "AM";
+
+        if (hr >= 12) {
+            hr = hr - 12;
+            session = "PM";
+        }
+
+        if (minute < 10) minute = "0" + minute;
+        if (hr < 10) hr = "0" + hr;
+        if (sec < 10) sec = "0" + sec;
+        if (hr === 0) hr = 12;
+
+        document.getElementById("clock").innerText = hr + " : " + minute + " : " + sec + " " + session;
+        cleartimeout = setTimeout(startClock, 1000);
+    }
+
+    function stopClock(){
+        clearTimeout(cleartimeout)
     }
 </script>
 </html>
